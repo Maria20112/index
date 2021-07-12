@@ -1,7 +1,19 @@
-div {
+.pic {
   padding-left: 300px;
 }
 
-table {
-  border: 1px solid black;
+.index {
+  background-color: black;
+}
+
+.main {
+  color: white;
+}
+
+.type {
+  color: white;
+}
+
+.author {
+  color: white;
 }
