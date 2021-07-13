@@ -3,25 +3,25 @@
 }
 
 .index {
-  font: 15pt / 10pt sans-serif;
+  font: bold 15pt / 20pt sans-serif;
   background-color: black;
   color: white;
 }
 
 .main {
-  font: 15pt / 10pt sans-serif;
+  font: bold 15pt / 20pt sans-serif;
   background-color: black;
   color: white;
 }
 
 .type {
-  font: 15pt / 10pt sans-serif;
+  font: bold 15pt / 20pt sans-serif;
   background-color: black;
   color: white;
 }
 
 .author {
-  font: 15pt / 10pt sans-serif;
+  font: bold 15pt / 20pt sans-serif;
   background-color: black;
   color: white;
 }
