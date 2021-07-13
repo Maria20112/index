@@ -3,21 +3,25 @@
 }
 
 .index {
+  font: 12pt/10pt sans-serif;
   background-color: black;
   color: white;
 }
 
 .main {
+  font: 12pt/10pt sans-serif;
   background-color: black;
   color: white;
 }
 
 .type {
+  font: 12pt/10pt sans-serif;
   background-color: black;
   color: white;
 }
 
 .author {
+  font: 12pt/10pt sans-serif;
   background-color: black;
   color: white;
 }
