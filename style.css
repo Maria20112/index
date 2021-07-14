@@ -14,14 +14,17 @@
 .main {
   display: table-cell;
   text-align: center;
+  background-color: black;
 }
 
 .author {
   display: table-cell;
   text-align: center;
+  background-color: black;
 }
 
 .type {
   display: table-cell;
   text-align: center;
+  background-color: black;
 }
