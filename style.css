@@ -4,17 +4,28 @@
 
 .index {
   display: table;
+  width: 100%;
   font: bold 15pt / 20pt sans-serif;
 }
 
+.trr {
+  display: table row;
+}
+
 .main {
+  display: table-cell;
+  text-align: center;
   font: bold 15pt / 20pt sans-serif;
 }
 
 .type {
+  display: table-cell;
+  text-akign: center;
   font: bold 15pt / 20pt sans-serif;
 }
 
 .author {
+  display: table-cell;
+  text-align: center;
   font: bold 15pt / 20pt sans-serif;
 }
