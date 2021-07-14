@@ -18,13 +18,13 @@
   font: bold 15pt / 20pt sans-serif;
 }
 
-.type {
+.author {
   display: table-cell;
-  text-akign: center;
+  text-align: center;
   font: bold 15pt / 20pt sans-serif;
 }
 
-.author {
+.type {
   display: table-cell;
   text-align: center;
   font: bold 15pt / 20pt sans-serif;
