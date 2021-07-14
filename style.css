@@ -16,16 +16,19 @@
   display: table-cell;
   text-align: center;
   background-color: black;
+  font-size: 15pt;
 }
 
 .author {
   display: table-cell;
   text-align: center;
   background-color: black;
+  font-size: 15pt;
 }
 
 .type {
   display: table-cell;
   text-align: center;
   background-color: black;
+  font-size: 15pt;
 }
