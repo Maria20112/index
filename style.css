@@ -41,7 +41,10 @@
   color: #FFFFFE;
 }
 
-input:hover {
+.text:hover {
   border: 3px solid blue;
 }
 
+.bn:hover {
+  border: 3px solid green;
+}
