@@ -33,10 +33,10 @@
   font-size: 15pt;
 }
 
-a:link {
+.blanche:link {
   color: #FFF;
 }
 
-a:visited {
+.blanche:visited {
   color: #FFFFFE;
 }
