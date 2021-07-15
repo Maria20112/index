@@ -40,3 +40,8 @@
 .blanche:visited {
   color: #FFFFFE;
 }
+
+input:hover {
+  border: 3px solid blue;
+}
+
