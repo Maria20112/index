@@ -32,3 +32,11 @@
   background-color: black;
   font-size: 15pt;
 }
+
+a:link {
+  color: #FFF;
+}
+
+a:visited {
+  color: #FFG;
+}
