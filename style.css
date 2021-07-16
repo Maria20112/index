@@ -35,10 +35,12 @@
 
 .blanche:link {
   color: #FFF;
+  font-size: 15pt;
 }
 
 .blanche:visited {
   color: #FFFFFE;
+  font-size: 15pt;
 }
 
 .text:hover {
@@ -47,4 +49,12 @@
 
 .bn:hover {
   border: 3px solid green;
+}
+
+.welcome {
+  align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #FFF;
+  
 }
