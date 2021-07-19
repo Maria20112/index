@@ -35,41 +35,42 @@ if (quest == false) {
     alert('Как пожелаете');
 }
 else {
-   var quest1 = confirm('Вопрос №1. ...?');
-   if (quest1 == true) {
+   var quest1 = prompt('Вопрос №1. ...?', 'Вводите ответ маленькими буквами');
+   if (quest1 == '') {
        alert('Правильно');
    }
    else {
        alert('К сожалению, вы ошиблись ');
    }
-   var quest2 = confirm('Вопрос №2. ... ?');
-       if (quest2 == true) {
+   var quest2 = prompt('Вопрос №2. ... ?', 'Вводите ответ маленькими буквами');
+       if (quest2 == '') {
            alert('Верно ');
        }
        else {
            alert('Неправильный ответ');
        }
-    var quest3 = confirm('Вопрос №3. ...?');
-        if (quest3 == true) {
+    var quest3 = prompt('Вопрос №3. ...?', 'Вводите ответ маленькими буквами');
+        if (quest3 == '') {
             alert('Вы правы');
         }
         else {
             alert('Вы не угадали');
         }
-    var quest4 = confirm('Вопрос №4. ...');
-        if (quest4 == true) {
+    var quest4 = prompt('Вопрос №4. ...', 'Вводите ответ маленькими буквами');
+        if (quest4 == '') {
             alert('Совершенно верно');
         }
         else {
             alert('Вы не правы');
         }
-    var quest5 = confirm('Вопрос №5. ...?');
-        if (quest5 == true) {
+    var quest5 = prompt('Вопрос №5. ...?', 'Вводите ответ маленькими буквами');
+        if (quest5 == '') {
             alert('Верный ответ');
         }
         else {
             alert('Как жаль, но вы не правы');
         }
+    alert ('Поздравляю. Опрос завершен')
 }   
 </script>
 <h2><p align = "center">Домашняя лошадь</p></h2>
