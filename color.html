@@ -16,11 +16,17 @@
 </tr>  
 </table>
 </div>
+<script>
+function entrance() {
+  var lg = document.form["frm"].elements["log"].value;
+  document.write("Такой логин не найден");
+}
+</script>
 <div class = "registration">
 <form>
-<input id = "log" class = "text" size = "40" maxlength = "25" value = "Логин">
-<input id = "pas" class = "text" size = "40" type = "password">  
-<input class = "bn" type = "button" value = "Войти">
+<input id = "lg" class = "text" size = "40" maxlength = "25" value = "Логин">
+<input id = "pass" class = "text" size = "40" type = "password">  
+<input class = "bn" type = "button" value = "Войти" onclick = "entrance()">
 </form>
 </div>
 <h2><p align = "center">Масти лошадей</p></h2>
