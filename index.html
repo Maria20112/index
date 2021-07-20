@@ -15,17 +15,20 @@
 <td><p align = "center"><a class = "blanche" href = "https://maria20112.github.io/index/types.html">Породы</a></p></td>
 </tr>
 </table>     
-</table>
+<script>
+function entrance() {
+  var log = document.form["frm"].elements["log"].value;
+  document.write("Такой логин не найден");
+  var pas = document.form["frm"].elements["pas"].value;
+  document.write("Такой пароль не найден");
+}
+</script>
 </div>
 <div class = "registration">
-<form>
-<input class = "text" size = "40" maxlength = "25" value = "Логин">
-</form>
-<form>
-<input class = "text" size = "40" type = "password">  
-</form>
-<form>
-<input class = "bn" type = "button" value = "Войти">
+<form id = "frm">
+<input id = "log" class = "text" size = "40" maxlength = "25" value = "Логин">
+<input id = "pas" class = "text" size = "40" type = "password">  
+<input class = "bn" type = "submit" value = "Войти" onclick = "entrance()">
 </form>
 </div>
 <h2><p align = "center">Домашняя лошадь</p></h2>
