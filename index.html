@@ -1,3 +1,60 @@
+<script>
+function entrance() {
+  var log = document.forms["frm"].elements["log"].value;
+  document.write("Такой логин не найден");
+}
+function questions() { 
+alert ('Добро пожаловать');
+var k = 0;
+var quest = confirm('Хотите пройти опрос?');
+if (quest == false) {
+    alert('Как пожелаете');
+}
+else {
+   var quest1 = prompt('Вопрос №1. ...?', 'Вводите ответ маленькими буквами');
+   if (quest1 == '') {
+       alert('Правильно');
+       k++
+   }
+   else {
+       alert('К сожалению, вы ошиблись ');
+   }
+   var quest2 = prompt('Вопрос №2. ... ?', 'Вводите ответ маленькими буквами');
+       if (quest2 == '') {
+           alert('Верно ');
+           k++
+       }
+       else {
+           alert('Неправильный ответ');
+       }
+    var quest3 = prompt('Вопрос №3. ...?', 'Вводите ответ маленькими буквами');
+        if (quest3 == '') {
+            alert('Вы правы');
+            k++
+        }
+        else {
+            alert('Вы не угадали');
+        }
+    var quest4 = prompt('Вопрос №4. ...', 'Вводите ответ маленькими буквами');
+        if (quest4 == '') {
+            alert('Совершенно верно');
+            k++
+        }
+        else {
+            alert('Вы не правы');
+        }
+    var quest5 = prompt('Вопрос №5. ...?', 'Вводите ответ маленькими буквами');
+        if (quest5 == '') {
+            alert('Верный ответ');
+            k++
+        }
+        else {
+            alert('Как жаль, но вы не правы');
+        }
+    alert ('Поздравляю. Опрос завершен. Вы ответили правильно ' + k + 'раз');
+}   
+}
+</script>
 <html>
 <head>
 <title>Домашняя лошадь</title>
@@ -16,18 +73,13 @@
 </tr>
 </table>     
 </div>
-<script>
-function entrance() {
-  var log = document.form["frm"].elements["log"].value;
-  document.write("Такой логин не найден");
-}
-</script>
 <div class = "registration">
 <form id = "frm">
-<input id = "log" class = "text" size = "40" maxlength = "25" value = "Логин">
-<input id = "pas" class = "text" size = "40" type = "password">  
-<input class = "bn" type = "submit" value = "Войти" onclick = "entrance()">
+<input id = "log" class = "text" size = "40" maxlength = "25" value = "Логин"> <br>
+<input id = "pas" class = "text" size = "40" type = "password">  <br>
+<input class = "bn" type = "button" value = "Войти" onclick = "entrance()">
 </form>
+<input type = "button" value = "Пройти опрос" onclick = "questions()">
 </div>
 <h2><p align = "center">Домашняя лошадь</p></h2>
 <p>Согласно зоологической классификации лошади являются <i>млекопитающими</i>, принадлежат к отряду <i>непарнокопытных</i>, семейству <i>лошадиных</i>. </p>
@@ -138,50 +190,5 @@ function entrance() {
 <form>
 <input class = "bn" type = "button" value = "Отправить">
 </form>
-<script>
-alert ('Добро пожаловать');
-var quest = confirm('Хотите пройти опрос?');
-if (quest == false) {
-    alert('Как пожелаете');
-}
-else {
-   var quest1 = prompt('Вопрос №1. ...?', 'Вводите ответ маленькими буквами');
-   if (quest1 == '') {
-       alert('Правильно');
-   }
-   else {
-       alert('К сожалению, вы ошиблись ');
-   }
-   var quest2 = prompt('Вопрос №2. ... ?', 'Вводите ответ маленькими буквами');
-       if (quest2 == '') {
-           alert('Верно ');
-       }
-       else {
-           alert('Неправильный ответ');
-       }
-    var quest3 = prompt('Вопрос №3. ...?', 'Вводите ответ маленькими буквами');
-        if (quest3 == '') {
-            alert('Вы правы');
-        }
-        else {
-            alert('Вы не угадали');
-        }
-    var quest4 = prompt('Вопрос №4. ...', 'Вводите ответ маленькими буквами');
-        if (quest4 == '') {
-            alert('Совершенно верно');
-        }
-        else {
-            alert('Вы не правы');
-        }
-    var quest5 = prompt('Вопрос №5. ...?', 'Вводите ответ маленькими буквами');
-        if (quest5 == '') {
-            alert('Верный ответ');
-        }
-        else {
-            alert('Как жаль, но вы не правы');
-        }
-    alert ('Поздравляю. Опрос завершен')
-}   
-</script>
 </body>
 </html>
