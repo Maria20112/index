@@ -1,6 +1,6 @@
 <script>
 function entrance() {
-  var lg = document.form["frm"].elements["lg"].value;
+  var lg = document.forms["frm"].elements["lg"].value;
   alert("Такие логин и пароль не найдены");
 }
 </script>
@@ -24,8 +24,8 @@ function entrance() {
 </div>
 <div class = "registration">
 <form>
-<input id = "lg" class = "text" size = "40" maxlength = "25" value = "Логин">
-<input id = "pass" class = "text" size = "40" type = "password">  
+<input id = "lg" class = "text" size = "40" maxlength = "25" value = "Логин"><br><br>
+<input id = "pass" class = "text" size = "40" type = "password">  <br><br>
 <input class = "bn" type = "button" value = "Войти" onclick = "entrance()">
 </form>
 </div>
